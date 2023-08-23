@@ -11,14 +11,29 @@
 		2ABAC03B2A95D8C0004DBD1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABAC03A2A95D8C0004DBD1C /* ContentView.swift */; };
 		2ABAC03D2A95D8C3004DBD1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ABAC03C2A95D8C3004DBD1C /* Assets.xcassets */; };
 		2ABAC0402A95D8C3004DBD1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ABAC03F2A95D8C3004DBD1C /* Preview Assets.xcassets */; };
+		2ABAC04D2A95DD70004DBD1C /* MagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2ABAC0462A95DD6F004DBD1C /* MagicParticle.sks */; };
+		2ABAC04E2A95DD70004DBD1C /* MagicScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABAC0472A95DD6F004DBD1C /* MagicScene.swift */; };
+		2ABAC04F2A95DD70004DBD1C /* Caprasimo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2ABAC0482A95DD6F004DBD1C /* Caprasimo-Regular.ttf */; };
+		2ABAC0502A95DD70004DBD1C /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABAC0492A95DD6F004DBD1C /* HexagonParameters.swift */; };
+		2ABAC0512A95DD70004DBD1C /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABAC04A2A95DD6F004DBD1C /* BadgeBackground.swift */; };
+		2ABAC0522A95DD70004DBD1C /* Kablammo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2ABAC04B2A95DD70004DBD1C /* Kablammo-Regular.ttf */; };
+		2ABAC0532A95DD70004DBD1C /* Bighaustitul-Extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2ABAC04C2A95DD70004DBD1C /* Bighaustitul-Extrabold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A0E2C262A95E6E900C50B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2ABAC0352A95D8C0004DBD1C /* BadgeMotionEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadgeMotionEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABAC0382A95D8C0004DBD1C /* BadgeMotionEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeMotionEffectApp.swift; sourceTree = "<group>"; };
 		2ABAC03A2A95D8C0004DBD1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2ABAC03C2A95D8C3004DBD1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ABAC03F2A95D8C3004DBD1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2ABAC0462A95DD6F004DBD1C /* MagicParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MagicParticle.sks; sourceTree = "<group>"; };
+		2ABAC0472A95DD6F004DBD1C /* MagicScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicScene.swift; sourceTree = "<group>"; };
+		2ABAC0482A95DD6F004DBD1C /* Caprasimo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caprasimo-Regular.ttf"; sourceTree = "<group>"; };
+		2ABAC0492A95DD6F004DBD1C /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		2ABAC04A2A95DD6F004DBD1C /* BadgeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		2ABAC04B2A95DD70004DBD1C /* Kablammo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kablammo-Regular.ttf"; sourceTree = "<group>"; };
+		2ABAC04C2A95DD70004DBD1C /* Bighaustitul-Extrabold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bighaustitul-Extrabold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +66,16 @@
 		2ABAC0372A95D8C0004DBD1C /* BadgeMotionEffect */ = {
 			isa = PBXGroup;
 			children = (
+				2A0E2C262A95E6E900C50B23 /* Info.plist */,
 				2ABAC0382A95D8C0004DBD1C /* BadgeMotionEffectApp.swift */,
 				2ABAC03A2A95D8C0004DBD1C /* ContentView.swift */,
+				2ABAC04A2A95DD6F004DBD1C /* BadgeBackground.swift */,
+				2ABAC0472A95DD6F004DBD1C /* MagicScene.swift */,
+				2ABAC0492A95DD6F004DBD1C /* HexagonParameters.swift */,
+				2ABAC04C2A95DD70004DBD1C /* Bighaustitul-Extrabold.ttf */,
+				2ABAC0482A95DD6F004DBD1C /* Caprasimo-Regular.ttf */,
+				2ABAC04B2A95DD70004DBD1C /* Kablammo-Regular.ttf */,
+				2ABAC0462A95DD6F004DBD1C /* MagicParticle.sks */,
 				2ABAC03C2A95D8C3004DBD1C /* Assets.xcassets */,
 				2ABAC03E2A95D8C3004DBD1C /* Preview Content */,
 			);
@@ -126,7 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ABAC0402A95D8C3004DBD1C /* Preview Assets.xcassets in Resources */,
+				2ABAC04D2A95DD70004DBD1C /* MagicParticle.sks in Resources */,
+				2ABAC0522A95DD70004DBD1C /* Kablammo-Regular.ttf in Resources */,
 				2ABAC03D2A95D8C3004DBD1C /* Assets.xcassets in Resources */,
+				2ABAC04F2A95DD70004DBD1C /* Caprasimo-Regular.ttf in Resources */,
+				2ABAC0532A95DD70004DBD1C /* Bighaustitul-Extrabold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ABAC0502A95DD70004DBD1C /* HexagonParameters.swift in Sources */,
 				2ABAC03B2A95D8C0004DBD1C /* ContentView.swift in Sources */,
+				2ABAC04E2A95DD70004DBD1C /* MagicScene.swift in Sources */,
+				2ABAC0512A95DD70004DBD1C /* BadgeBackground.swift in Sources */,
 				2ABAC0392A95D8C0004DBD1C /* BadgeMotionEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,11 +300,13 @@
 				DEVELOPMENT_TEAM = GWT62A5KS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BadgeMotionEffect/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +331,13 @@
 				DEVELOPMENT_TEAM = GWT62A5KS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BadgeMotionEffect/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
